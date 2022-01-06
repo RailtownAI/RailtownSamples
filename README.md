@@ -1,5 +1,4 @@
 # Railtown Samples
-[railtown.ai](https://www.railtown.ai/)
 These samples show how to integrate your code with railtown.ai. They are provided for education and evaluation purposes only and are not intended to be used in production environments.
 
 ## Getting started
