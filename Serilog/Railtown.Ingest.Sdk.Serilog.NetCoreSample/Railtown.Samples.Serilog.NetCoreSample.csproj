@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog" Version="2.10.0" />
+		<PackageReference Include="Serilog.Sinks.Railtown" Version="1.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Railtown.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>
