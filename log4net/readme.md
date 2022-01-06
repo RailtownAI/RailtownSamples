@@ -3,8 +3,8 @@
 
 
 ## Getting started
-- Choose [.NET core](https://github.com/RailtownAI/RailtownSamples/tree/master/log4net/Railtown.Ingest.Sdk.log4net.NetCoreSample) or
-[.NET Framework](https://github.com/RailtownAI/RailtownSamples/tree/master/log4net/Railtown.Ingest.Sdk.log4net.NetFrameworkSample)
+- Choose [.NET core](https://github.com/RailtownAI/RailtownSamples/tree/master/log4net/Railtown.Samples.log4net.NetCoreSample) or
+[.NET Framework](https://github.com/RailtownAI/RailtownSamples/tree/master/log4net/Railtown.Samples.log4net.NetFrameworkSample)
 
 ## License
 

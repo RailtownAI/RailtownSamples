@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.NLog.NetFrameworkSample", "NLog\Railtown.Ingest.Sdk.NLog.NetFrameworkSample\Railtown.Samples.NLog.NetFrameworkSample.csproj", "{66DA05AE-B1EB-4F91-8384-E2F3D0F5D01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.NLog.NetFrameworkSample", "NLog\Railtown.Samples.NLog.NetFrameworkSample\Railtown.Samples.NLog.NetFrameworkSample.csproj", "{66DA05AE-B1EB-4F91-8384-E2F3D0F5D01E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.NLog.NetCoreSample", "NLog\Railtown.Ingest.Sdk.NLog.NetCoreSample\Railtown.Samples.NLog.NetCoreSample.csproj", "{62EB9317-B150-4BC9-B906-67DFE6BDCD1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.NLog.NetCoreSample", "NLog\Railtown.Samples.NLog.NetCoreSample\Railtown.Samples.NLog.NetCoreSample.csproj", "{62EB9317-B150-4BC9-B906-67DFE6BDCD1C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.Serilog.NetCoreSample", "Serilog\Railtown.Ingest.Sdk.Serilog.NetCoreSample\Railtown.Samples.Serilog.NetCoreSample.csproj", "{8D6511BD-E678-40DA-9512-A89B0BE16CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.Serilog.NetCoreSample", "Serilog\Railtown.Samples.Serilog.NetCoreSample\Railtown.Samples.Serilog.NetCoreSample.csproj", "{8D6511BD-E678-40DA-9512-A89B0BE16CBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.Serilog.NetFrameworkSample", "Serilog\Railtown.Ingest.Sdk.Serilog.NetFrameworkSample\Railtown.Samples.Serilog.NetFrameworkSample.csproj", "{7572AC80-D5AC-4567-9DAA-5D330CF0A8F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.Serilog.NetFrameworkSample", "Serilog\Railtown.Samples.Serilog.NetFrameworkSample\Railtown.Samples.Serilog.NetFrameworkSample.csproj", "{7572AC80-D5AC-4567-9DAA-5D330CF0A8F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.log4net.NetCoreSample", "log4net\Railtown.Ingest.Sdk.log4net.NetCoreSample\Railtown.Samples.log4net.NetCoreSample.csproj", "{BE17DE96-0668-4437-9C32-0288A46D1462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.log4net.NetCoreSample", "log4net\Railtown.Samples.log4net.NetCoreSample\Railtown.Samples.log4net.NetCoreSample.csproj", "{BE17DE96-0668-4437-9C32-0288A46D1462}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.log4net.NetFrameworkSample", "log4net\Railtown.Ingest.Sdk.log4net.NetFrameworkSample\Railtown.Samples.log4net.NetFrameworkSample.csproj", "{FFBEE622-515A-460B-B7AB-E9FDD25CA409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.log4net.NetFrameworkSample", "log4net\Railtown.Samples.log4net.NetFrameworkSample\Railtown.Samples.log4net.NetFrameworkSample.csproj", "{FFBEE622-515A-460B-B7AB-E9FDD25CA409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railtown.Samples.AppInsights.NetFrameworkSample", "AppInsights\Railtown.Ingest.Sdk.AppInsights.NetFrameworkSample\Railtown.Samples.AppInsights.NetFrameworkSample.csproj", "{D0F00A1C-5FC1-43AA-939A-0BCECA46343B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railtown.Samples.AppInsights.NetFrameworkSample", "AppInsights\Railtown.Samples.AppInsights.NetFrameworkSample\Railtown.Samples.AppInsights.NetFrameworkSample.csproj", "{D0F00A1C-5FC1-43AA-939A-0BCECA46343B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.AppInsights.NetCoreWebSample", "AppInsights\Railtown.Ingest.Sdk.AppInsights.NetCoreWebSample\Railtown.Samples.AppInsights.NetCoreWebSample.csproj", "{5BFFF7F6-5236-4AE6-9A6F-8D766E1D68E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.AppInsights.NetCoreWebSample", "AppInsights\Railtown.Samples.AppInsights.NetCoreWebSample\Railtown.Samples.AppInsights.NetCoreWebSample.csproj", "{5BFFF7F6-5236-4AE6-9A6F-8D766E1D68E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

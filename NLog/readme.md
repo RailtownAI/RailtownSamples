@@ -3,8 +3,8 @@
 
 
 ## Getting started
-- Choose [.NET core](https://github.com/RailtownAI/RailtownSamples/tree/master/NLog/Railtown.Ingest.Sdk.NLog.NetCoreSample) or
-[.NET Framework](https://github.com/RailtownAI/RailtownSamples/tree/master/NLog/Railtown.Ingest.Sdk.NLog.NetFrameworkSample)
+- Choose [.NET core](https://github.com/RailtownAI/RailtownSamples/tree/master/NLog/Railtown.Samples.NLog.NetCoreSample) or
+[.NET Framework](https://github.com/RailtownAI/RailtownSamples/tree/master/NLog/Railtown.Samples.NLog.NetFrameworkSample)
 
 ## License
 

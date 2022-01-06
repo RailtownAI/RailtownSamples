@@ -3,8 +3,8 @@
 
 
 ## Getting started
-- Choose [.NET core](https://github.com/RailtownAI/RailtownSamples/tree/master/AppInsights/Railtown.Ingest.Sdk.AppInsights.NetCoreWebSample) or
-[.NET Framework](https://github.com/RailtownAI/RailtownSamples/tree/master/AppInsights/Railtown.Ingest.Sdk.AppInsights.NetFrameworkSample)
+- Choose [.NET core](https://github.com/RailtownAI/RailtownSamples/tree/master/AppInsights/Railtown.Samples.AppInsights.NetCoreWebSample) or
+[.NET Framework](https://github.com/RailtownAI/RailtownSamples/tree/master/AppInsights/Railtown.Samples.AppInsights.NetFrameworkSample)
 
 ## License
 
