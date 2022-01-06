@@ -3,10 +3,10 @@
 
 ## Getting started
 - Choose the best sample project for your project:
--- Application Insights
--- NLog
--- Serilog
--- log4net
+    - Application Insights
+    - NLog
+    - Serilog
+    - log4net
 - Or, open RailtownSamples.sln to see all the samples.
 
 ## License
