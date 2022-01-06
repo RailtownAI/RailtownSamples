@@ -2,7 +2,7 @@
 [railtown.ai](https://www.railtown.ai/)
 
 ## Getting started
-- Choose the best sample project for your project:
+- Choose the best sample for your project:
     - Application Insights
     - NLog
     - Serilog
