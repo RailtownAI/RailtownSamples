@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.12.0" />
-    <PackageReference Include="log4net.Railtown.Ingest.Logs.Appender" Version="1.4.0" />
+    <PackageReference Include="log4net.Railtown.Ingest.Logs.Appender" Version="1.4.1" />
  
   </ItemGroup>
 
