@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ApplicationInsights.Railtown" Version="1.9.0" />
+    <PackageReference Include="ApplicationInsights.Railtown" Version="1.9.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
   </ItemGroup>
 
