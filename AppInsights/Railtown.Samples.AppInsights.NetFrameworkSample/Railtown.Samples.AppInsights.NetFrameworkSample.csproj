@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ApplicationInsights.Railtown, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ApplicationInsights.Railtown.1.9.1\lib\.NETStandard2.0\ApplicationInsights.Railtown.dll</HintPath>
+      <HintPath>..\..\packages\ApplicationInsights.Railtown.2.0.0\lib\.NETStandard2.0\ApplicationInsights.Railtown.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ApplicationInsights, Version=2.10.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.ApplicationInsights.2.10.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
@@ -46,16 +46,16 @@
       <HintPath>..\..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Railtown.Ingest.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Railtown.Ingest.Logs.1.9.1\lib\.NETStandard2.0\Railtown.Ingest.Common.dll</HintPath>
+      <HintPath>..\..\packages\Railtown.Ingest.Logs.2.0.0\lib\.NETStandard2.0\Railtown.Ingest.Common.dll</HintPath>
     </Reference>
     <Reference Include="Railtown.Ingest.Common.Logs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Railtown.Ingest.Logs.1.9.1\lib\.NETStandard2.0\Railtown.Ingest.Common.Logs.dll</HintPath>
+      <HintPath>..\..\packages\Railtown.Ingest.Logs.2.0.0\lib\.NETStandard2.0\Railtown.Ingest.Common.Logs.dll</HintPath>
     </Reference>
     <Reference Include="Railtown.Ingest.Data.Logs.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Railtown.Ingest.Logs.1.9.1\lib\.NETStandard2.0\Railtown.Ingest.Data.Logs.Models.dll</HintPath>
+      <HintPath>..\..\packages\Railtown.Ingest.Logs.2.0.0\lib\.NETStandard2.0\Railtown.Ingest.Data.Logs.Models.dll</HintPath>
     </Reference>
-    <Reference Include="Railtown.Ingest.Logs.Client.Rest, Version=1.9.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Railtown.Ingest.Logs.1.9.1\lib\.NETStandard2.0\Railtown.Ingest.Logs.Client.Rest.dll</HintPath>
+    <Reference Include="Railtown.Ingest.Logs.Client.Rest, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Railtown.Ingest.Logs.2.0.0\lib\.NETStandard2.0\Railtown.Ingest.Logs.Client.Rest.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
