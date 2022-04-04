@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32002.185
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.NLog.NetFrameworkSample", "NLog\Railtown.Samples.NLog.NetFrameworkSample\Railtown.Samples.NLog.NetFrameworkSample.csproj", "{66DA05AE-B1EB-4F91-8384-E2F3D0F5D01E}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railtown.Samples.AppInsights.NetFrameworkSample", "AppInsights\Railtown.Samples.AppInsights.NetFrameworkSample\Railtown.Samples.AppInsights.NetFrameworkSample.csproj", "{D0F00A1C-5FC1-43AA-939A-0BCECA46343B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Railtown.Samples.AppInsights.NetCoreWebSample", "AppInsights\Railtown.Samples.AppInsights.NetCoreWebSample\Railtown.Samples.AppInsights.NetCoreWebSample.csproj", "{5BFFF7F6-5236-4AE6-9A6F-8D766E1D68E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railtown.Samples.Javascript.ReactWithProxy", "Javascript\Railtown.Samples.Javascript.ReactWithProxy\Railtown.Samples.Javascript.ReactWithProxy.csproj", "{4756C54A-00A4-474C-B903-0A3A253CEE95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5BFFF7F6-5236-4AE6-9A6F-8D766E1D68E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BFFF7F6-5236-4AE6-9A6F-8D766E1D68E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BFFF7F6-5236-4AE6-9A6F-8D766E1D68E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4756C54A-00A4-474C-B903-0A3A253CEE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4756C54A-00A4-474C-B903-0A3A253CEE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4756C54A-00A4-474C-B903-0A3A253CEE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4756C54A-00A4-474C-B903-0A3A253CEE95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
