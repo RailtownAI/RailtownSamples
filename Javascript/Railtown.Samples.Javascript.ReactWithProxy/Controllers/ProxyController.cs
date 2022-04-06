@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Railtown.Ingest.Common;
 using Railtown.Ingest.Logs.Client.Rest;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,13 @@ namespace Railtown.Samples.Javascript.ReactWithProxy.Controllers
             var railtownClient = new RestWriter(key);
             await railtownClient.WriteAsync(logs);
             return 200;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var s = "window.RailtownAI && RailtownAI.install('"+ RailtownConfig.GeneratePublicKey(key) +"', {}, '/proxy')";
+            return Ok(s);
         }
     }
 }
