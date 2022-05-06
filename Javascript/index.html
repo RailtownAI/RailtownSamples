@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Railtown Sample Javascript Error Logging</title>
+        <!-- Railtown -->
+        <script src='https://railtownazureb2c.blob.core.windows.net/cdn/railtown.min.js'></script>
+        <script>
+            window.RailtownAI && RailtownAI.install(
+                "YOUR_KEY_HERE"
+            );
+        </script>
+</head>
+<body>
+    <h1>Railtown Sample Javascript Error Logging</h1>
+    <p>Make sure you have copied your railtown key</p>
+    <button onclick="triggerReferenceError1()">Trigger referrence error</button>
+    <button onclick="triggerThirdPartyNetworkError()">Trigger third party network Error</button>
+</body>
+
+<script>
+    function triggerReferenceError1() {
+        const l = console.log
+        const cat = "cat"
+        cat
+        dog
+    }
+
+    function triggerThirdPartyNetworkError() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://catfact.ninja/fact", true);
+        xhr.send();
+    }
+</script>
+</html>

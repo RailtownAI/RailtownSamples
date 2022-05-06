@@ -3,7 +3,7 @@
 
 
 ## Getting started
-- Copy your key from the railtown config page and trigger an error
+- [React](https://github.com/RailtownAI/RailtownSamples/tree/master/Javascript/Railtown.Samples.Javascript.ReactWithProxy)
 
 ## License
 
