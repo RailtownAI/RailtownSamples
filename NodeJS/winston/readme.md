@@ -6,7 +6,7 @@
 - Go to [app.railtown.ai](https://app.railtown.ai/) to get your Railtown token
 - Open **index.js** and and replace `'your_railtown_token'` with your token.
 - Make sure to install dependencies by running: ```$: npm i ```
-- Run program  ```$: npm start```
+- Run program  ```$: npm start``` and see the results in [app.railtown.ai](https://app.railtown.ai/)
 
 ## License
 
