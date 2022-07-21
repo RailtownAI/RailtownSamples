@@ -10,7 +10,7 @@
   "author": "railtownai",
   "license": "MIT",
   "dependencies": {
-    "@railtownai/bunyan-railtownai": "^1.0.6",
+    "@railtownai/bunyan-railtownai": "^1.0.7",
     "bunyan": "^1.8.15"
   }
 }

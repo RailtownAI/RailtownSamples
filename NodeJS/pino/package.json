@@ -10,7 +10,7 @@
   "author": "railtownai",
   "license": "MIT",
   "dependencies": {
-    "@railtownai/pino-railtownai": "^1.0.1",
+    "@railtownai/pino-railtownai": "^1.0.2",
     "pino": "^8.2.0"
   }
 }
