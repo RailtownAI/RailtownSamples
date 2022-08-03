@@ -7,6 +7,9 @@ These samples show how to integrate your code with railtown.ai. They are provide
     - NLog
     - Serilog
     - log4net
+    - Javascript
+    - React with secure proxy
+    - Nodejs
 - Or, open RailtownSamples.sln to see all the samples.
 
 ## License

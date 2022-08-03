@@ -1,0 +1,16 @@
+{
+  "name": "bunyan-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "railtownai",
+  "license": "MIT",
+  "dependencies": {
+    "@railtownai/bunyan-railtownai": "^1.0.7",
+    "bunyan": "^1.8.15"
+  }
+}
