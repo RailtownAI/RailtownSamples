@@ -8,4 +8,12 @@ const transportForRailtownai = pino.transport({
 
 const logger = pino(transportForRailtownai);
  
-logger.error(new Error('An error occured.'));
+const retrievePassport = () => {
+  getPassport();
+};
+
+try {
+  retrievePassport();
+} catch (error){
+  logger.error(error);
+}
