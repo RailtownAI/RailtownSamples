@@ -1,0 +1,16 @@
+{
+  "name": "log4js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "railtownai",
+  "license": "MIT",
+  "dependencies": {
+    "@railtownai/log4js-railtownai": "^1.0.1",
+    "log4js": "^6.6.1"
+  }
+}
