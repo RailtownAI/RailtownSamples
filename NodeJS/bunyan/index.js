@@ -8,4 +8,12 @@ var log = bunyan.createLogger({
   }),
 });
 
-log.error(new Error('An error occured.'));
+const retrievePassport = () => {
+  getPassport();
+};
+
+try {
+  retrievePassport();
+} catch (error){
+  log.error(error);
+}

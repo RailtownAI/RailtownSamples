@@ -14,4 +14,12 @@ logger.add(
   })
 );
 
-logger.error('An error occured.');
+const retrievePassport = () => {
+  getPassport();
+};
+
+try {
+  retrievePassport();
+} catch (error){
+  logger.error(error);
+}
