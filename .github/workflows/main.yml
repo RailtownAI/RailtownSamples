@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+    - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Invoke build hook
+    steps:
+      - uses: distributhor/workflow-webhook@v2
+        env:
+          webhook_url: https://testapp.railtown.ai/webhooks/github/c81d2dcfb7dc41fd835907685ba0a8df/builds/
+          webhook_secret: c81d2dcfb7dc41fd835907685ba0a8df
+          data: '{ "ProjectId": "46992ac2-ec35-4361-81d0-5639daf2d7b3" ,"Name": "${GITHUB_SHA}", "DateCreatedAtSource" : "$(Get-Date -format O)" }'        
+  deploy:
+    runs-on: ubuntu-latest
+    name: Invoke deployment hook
+    steps:
+      - uses: distributhor/workflow-webhook@v2
+        env:
+          webhook_url: https://testapp.railtown.ai/webhooks/github/c81d2dcfb7dc41fd835907685ba0a8df/deployments/
+          webhook_secret: c81d2dcfb7dc41fd835907685ba0a8df
+          data: '{ "BuildName": "${GITHUB_SHA}", "EnvironmentId" : "124e9b76-1479-4034-9661-043f3907b619" }'
+        
