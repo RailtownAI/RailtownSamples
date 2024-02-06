@@ -362,3 +362,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Javascript/Railtown.Samples.Javascript.ReactWithProxy/appsettings.Development.json
+
+# Python Examples
+.venv 
+__pycache__
+.env
