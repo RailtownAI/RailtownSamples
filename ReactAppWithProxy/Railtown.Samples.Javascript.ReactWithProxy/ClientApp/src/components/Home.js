@@ -5,7 +5,7 @@ export class Home extends Component {
 
   render () {
     const runFunction = () => {
-        variable
+        throw new Error('This is a test error');
     }
     return (
       <div>
