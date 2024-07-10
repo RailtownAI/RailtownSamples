@@ -14,7 +14,6 @@ railtownai.init(railtown_api_key)
 async def root():
     try:
         raise ValueError("This is an error")
-        return {"message": "Hello World"}
     except Exception as e:
         railtownai.log(e)
-        return {"message": str(e)}
+        return {"message": "An error occurred."}
