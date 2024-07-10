@@ -21,11 +21,17 @@
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "nan": "^2.15.0",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "typescript": "^3.9.10"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "overrides": {
+  "react-scripts": {
+      "@svgr/webpack": "8.1.0",
+      "postcss": "8.4.38"
+    }
   },
   "scripts": {
     "start": "rimraf ./build && react-scripts start",
